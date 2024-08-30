@@ -1,0 +1,49 @@
+/*
+* Basic theme styles
+*/
+
+$dark-color: #000000;
+$light-color: #ffffff;
+$primary-color: #FFC72C;
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*
+* Content styles
+*/
+
+.container{
+    width: 100%;
+
+    .container__image{
+        width: 100%;
+        object-fit: cover;
+        height: calc(100vh - 200px);
+    }
+
+}
+
+/*
+* Footer styles
+*/
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    background-color: $dark-color;
+
+    .footer__copyright {
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 36px;
+        color: $light-color;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+}
