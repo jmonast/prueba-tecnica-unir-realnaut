@@ -1,0 +1,16 @@
+/*
+Theme Name: Menu KSCHOOL
+Theme URI: https://github.com/jmonast/prueba-tecnica-unir-realnaut
+Author: Jesús Montealegre Astillero
+Author URI: https://github.com/jmonast
+Description: Este es un tema para la prueba técnica de Realnaut/UNIR, en la que se creará un menú responsive para la web KSCHOOL
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Add default styles */
+@import './assets/scss/default.css';
+
+/* Add theme styles */
+@import './assets/scss/base.css';
