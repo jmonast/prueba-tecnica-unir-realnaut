@@ -15,8 +15,7 @@ add_action('wp_enqueue_scripts', 'menu_kschool_scripts');
 // Function to register navigation menus
 function add_menus() {
     register_nav_menus(array(
-        'menu-principal' => __('Menú Principal', 'menu_kschool'),
-        'menu-secundario' => __('Menú Secundario', 'menu_kschool')
+        'menu-principal' => __('Menú Principal', 'menu_kschool')
     ));
 }
 add_action('init', 'add_menus');

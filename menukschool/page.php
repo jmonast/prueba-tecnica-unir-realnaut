@@ -8,11 +8,6 @@
                 <div class="entry-content">
                     <?php the_content(); ?>
                 </div>
-
-                <div class="container">
-                    <img class="container__image" src="<?= get_template_directory_uri() ?>/assets/images/default_image.jpg" alt="Default Image">
-                </div>
-
             </article>
             <?php
         endwhile;
