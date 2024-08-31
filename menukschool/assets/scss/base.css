@@ -238,12 +238,16 @@ html {
 }
 .header--mobile .header__branding__aux.active {
   display: block;
-  z-index: 1;
   position: absolute;
   top: calc(100vh - 190px);
   width: 150px;
   left: 50%;
   transform: translateX(-50%);
+}
+.header--mobile .header__menu__nav {
+  z-index: 9;
+  position: relative;
+  background: #000;
 }
 .header--mobile .header__menu__nav li:hover {
   cursor: pointer;
