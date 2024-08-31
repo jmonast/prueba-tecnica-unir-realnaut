@@ -74,6 +74,8 @@ function show_basic_menu_shortcode() {
         ));
         ?>
 
+        <img class="header__branding__aux" src="<?= get_template_directory_uri() ?>/assets/images/unir-logo.png" alt="UNIR Logo">
+
     </header>  
 
     <?php
